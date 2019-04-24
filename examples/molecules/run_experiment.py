@@ -147,9 +147,9 @@ def main():
     parser.add_argument("--data_path",
                         type=str,
                         default="data.joblib")
-    parser.add_argument("--test_strat",             #edit
+    parser.add_argument("--test_strat",            
                         type=int,
-                        default=1)
+                        default=0)
     parser.add_argument("--device_id",
                         type=int,
                         default=0)
