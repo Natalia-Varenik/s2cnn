@@ -147,15 +147,15 @@ def main():
     parser.add_argument("--data_path",
                         type=str,
                         default="data.joblib")
-    parser.add_argument("--test_strat",
+    parser.add_argument("--test_strat",             #edit
                         type=int,
-                        default=0)
+                        default=1)
     parser.add_argument("--device_id",
                         type=int,
                         default=0)
     parser.add_argument("--num_epochs_s2cnn",
                         type=int,
-                        default=30)
+                        default=70)                 #edit
     parser.add_argument("--num_epochs_mlp",
                         type=int,
                         default=30)
